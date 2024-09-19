@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Barber - Barbers & Hair Cutting</title>
+  <meta name="title" content="Barber - Barbers & Hair Cutting">
+  <meta name="description" content="This is a barber html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Contáctanos</p>
+
+            <a href="https://api.whatsapp.com/send?phone=573162533878&text=%C2%A1Hola!%20Estoy%20interesado%20en%20reservar%20una%20cita%20%F0%9F%92%88%F0%9F%98%80" class="item-link">3162533878</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Horarios:</p>
+
+            <p class="item-text">Lunes a Sábado de 10AM a 7:30PM</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/people/Donbarbas222/100094054894942/?locale=hi_IN" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.tiktok.com/@donbarbas222" class="social-link">
+                  <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/donbarbas222/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+    <style>
+      .logoprime {
+        display: flex;
+        align-items: center; /* Alinea verticalmente el texto y la imagen */
+        justify-content: space-around; /* Centra horizontalmente el contenido */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        color: #333; /* Color del texto */
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: px;
+      }
+  
+      .logoprime .logo-imageprime {
+        height: 200px; /* Ajusta la altura de la imagen según sea necesario */
+        width: auto; /* Mantiene la proporción de la imagen */
+        margin-right: 10px; /* Espacio entre la imagen y el texto */
+      }
+    </style>
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+
+        <a href="#services" class="logoprime">
+          <img src="assets/images/LOGO.png"  class="logo-imageprime">
+        </a>
+
+
+        
+        
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Servicios</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#pricing" class="navbar-link" data-nav-link>Precios</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#location" class="navbar-link" data-nav-link>Ubicación</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#stylists" class="navbar-link" data-nav-link>Estilistas</a>
+            </li>
+
+
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="https://api.whatsapp.com/send?phone=573162533878&text=%C2%A1Hola!%20Estoy%20interesado%20en%20reservar%20una%20cita%20%F0%9F%92%88%F0%9F%98%80" class="btn has-before">
+          <span class="span">Agenda tu cita!</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+      style="background-image: url('./assets/images/hero-banner.jpg'); width: 100%; background-size: cover; background-position: center;">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Barbería Don Barbas </h1>
+
+
+          <a href="https://api.whatsapp.com/send?phone=573162533878&text=%C2%A1Hola!%20Estoy%20interesado%20en%20reservar%20una%20cita%20%F0%9F%92%88%F0%9F%98%80" class="btn has-before">
+            <span class="span">Agenda tu cita!</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 id="servicios-titulo" class="h2 section-title text-center">Nuestros servicios</h2>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-beauty-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#pricing"  class="card-title">Cortes de cabello</a> 
+                </h3>
+
+                <p class="card-text">
+                  
+                </p>
+
+                <a href="#pricing" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+
+            
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-treatment"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#pricing" class="card-title">Mascarillas y tinturas</a>
+                </h3>
+
+                
+
+                <a href="#pricing" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-shaving-razor"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#pricing " class="card-title">Barbería</a>
+                </h3>
+
+                
+
+                <a href="#pricing" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+      style="background-image: url('./assets/images/pricing-bg.jpg')">
+    <div class="container">
+      <h2 class="h2 section-title text-center">Nuestros precios</h2>
+      <p class="section-text text-center">Los mejores precios de todo Teusaquillo</p>
+  
+      <div class="pricing-tab-container">
+        <ul class="tab-filter">
+          <li>
+            <button class="filter-btn" data-filter-btn="barberia">
+              <div class="btn-icon">
+                <i class="flaticon-razor-blade" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Barbería</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="corte-cabello">
+              <div class="btn-icon">
+                <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Corte de Cabello</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="mascarillas">
+              <div class="btn-icon">
+                <i class="flaticon-spa" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Mascarillas</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="combos-barba">
+              <div class="btn-icon">
+                <i class="flaticon-beauty-treatment" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Combos Barba</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="corte">
+              <div class="btn-icon">
+                <i class="flaticon-salon" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Corte y mascarilla</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="corte-y-barba">
+              <div class="btn-icon">
+                <i class="flaticon-shampoo" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Corte y Barba</p>
+            </button>
+          </li>
+          <li>
+            <button class="filter-btn" data-filter-btn="depilacion">
+              <div class="btn-icon">
+                <i class="flaticon-hair-dye" aria-hidden="true"></i>
+              </div>
+              <p class="btn-text">Depilación</p>
+            </button>
+          </li>
+        </ul>
+  
+        <ul class="grid-list">
+          <li data-filter="barberia">
+            <div class="pricing-card">
+                <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Definición de barba</h3>
+                
+              </div>
+              <data class="card-price" value="20000">$20.000</data>
+            </div>
+          </li>
+          <li data-filter="barberia">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Tinte para barba</h3>
+                
+              </div>
+              <data class="card-price" value="38000">$38.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Corte Tradicional</h3>
+                
+              </div>
+              <data class="card-price" value="15000">$27.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Corte y Barba Tradicional</h3>
+                
+              </div>
+              <data class="card-price" value="15000">$45.000</data>
+            </div>
+          </li>
+          
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Corte y Barba con toalla</h3>
+                
+              </div>
+              <data class="card-price" value="15000">$55.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Keratina cabello corto</h3>
+                
+              </div>
+              <data class="card-price" value="15000">a partir de $70.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Keratina cabello largo</h3>
+                
+              </div>
+              <data class="card-price" value="15000">a partir de $180.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Tintura para cabello</h3>
+                
+              </div>
+              <data class="card-price" value="15000">a partir de $70.000</data>
+            </div>
+          </li>
+          <li data-filter="corte-cabello">
+            <div class="pricing-card">
+             
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Rayitos (Tintura) para cabello largo</h3>
+                
+              </div>
+              <data class="card-price" value="15000">$240.000</data>
+            </div>
+          </li>
+          <li data-filter="mascarillas">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Mascarilla puntos negros</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$20.000</data>
+            </div>
+          </li>
+          <li data-filter="mascarillas">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Mascarilla colágeno</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$30.000</data>
+            </div>
+          </li>
+          <li data-filter="mascarillas">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Máscara led</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$40.000</data>
+            </div>
+          </li>
+          <li data-filter="combos-barba">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Don Barbas, puntos negros</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$35.000</data>
+            </div>
+          </li>
+          <li data-filter="combos-barba">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Don Barbas y mascarilla colágeno</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$45.000</data>
+            </div>
+          </li>
+          <li data-filter="combos-barba">
+            <div class="pricing-card">
+              
+              <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+              </figure>
+              <div class="wrapper">
+                <h3 class="h3 card-title">Don Barbas y máscara Led</h3>
+                
+              </div>
+              <data class="card-price" value="25000">$55.000</data>
+            </div>
+            <li data-filter="combos-barba">
+              <div class="pricing-card">
+                
+                <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                </figure>
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Don Barbas, puntos negros y mascarilla de colágeno</h3>
+                  
+                </div>
+                <data class="card-price" value="25000">$65.000</data>
+              </div>
+              <li data-filter="combos-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Don barbas, puntos negros y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$75.000</data>
+                </div>
+              </li>
+              <li data-filter="combos-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Don barbas, mascarilla de colágeno y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$85.000</data>
+                </div>
+              </li>
+              <li data-filter="combos-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Don barbas, mascarilla puntos negros, mascarilla de colágeno y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$100.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, mascarilla de colágeno </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$50.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, mascarilla de puntos negros</h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$42.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$60.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, puntos negros, mascarilla de colágeno</h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$72.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, puntos negros, máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$82.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, mascarilla de colágeno, máscara led</h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$90.000</data>
+                </div>
+              </li>
+              <li data-filter="corte">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, puntos negros, mascarilla de colágeno, máscara led  </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$107.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, puntos negros </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$60.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, mascarilla de colágeno  </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$70.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$80.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, puntos negros y mascarilla de colágeno  </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$90.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, mascarilla puntos negros y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$100.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, mascarilla de colágeno y máscara led  </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$110.000</data>
+                </div>
+              </li>
+              <li data-filter="corte-y-barba">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte, Don barbas, mascarilla puntos negros, mascarilla de colágeno y máscara led </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$125.000</data>
+                </div>
+              </li>
+              <li data-filter="depilacion">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Depilación Nasal con cera  </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$15.000</data>
+                </div>
+              </li>
+              <li data-filter="depilacion">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Depilación de orejas con cera </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$15.000</data>
+                </div>
+              </li>
+              <li data-filter="depilacion">
+                <div class="pricing-card">
+                  
+                  <img src="./assets/images/LOGO.png" width="30" height="30" alt="Definición de barba" class="img-cover">
+                  </figure>
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Combo depilación nasal y orejas   </h3>
+                    
+                  </div>
+                  <data class="card-price" value="25000">$20.000</data>
+                </div>
+              </li>
+              
+                
+          </li>
+          <!-- Agrega más elementos aquí según tus categorías -->
+        </ul>
+      </div>
+    </div>
+  </section>
+    
+    <!-- JavaScript para manejar los filtros y activar el primer botón -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+  const defaultFilter = 'barberia'; // Categoría predeterminada
+  const defaultButton = document.querySelector(`#pricing [data-filter-btn="${defaultFilter}"]`);
+  filterItems(defaultFilter); // Filtrar precios al cargar
+
+  document.querySelectorAll('#pricing .filter-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const filter = button.getAttribute('data-filter-btn');
+      filterItems(filter); // Filtra los precios según la categoría seleccionada
+      setActiveButton(button); // Cambiar el botón activo
+    });
+  });
+
+  function filterItems(filter) {
+    document.querySelectorAll('#pricing .grid-list li').forEach(item => {
+      const itemFilter = item.getAttribute('data-filter');
+
+      // Mostrar todos si es 'todos', o los que coincidan con el filtro seleccionado
+      if (filter === 'todos' || itemFilter === filter) {
+        item.style.display = 'block';  // Mostrar el elemento
+      } else {
+        item.style.display = 'none';   // Ocultar el elemento
+      }
+    });
+  }
+
+  function setActiveButton(selectedButton) {
+    document.querySelectorAll('#pricing .filter-btn').forEach(button => {
+      button.classList.remove('active'); // Remover la clase activa de todos los botones
+    });
+    selectedButton.classList.add('active'); // Agregar la clase activa al botón seleccionado
+  }
+
+  // Marcar el primer botón como activo al cargar la página
+  setActiveButton(defaultButton);
+});
+
+    </script>
+    
+    
+    
+
+  <!-- 
+    - #LOCATION
+  --> 
+
+  <section class="map-section" id="location">
+    <h3 class="h2 map-title">Ubicación</h3>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.835257158043!2d-74.07606942456506!3d4.623464142321361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99d7b11a688f%3A0x4622d8ed73372866!2sBarber%C3%ADa%20Don%20Barbas%20222!5e0!3m2!1ses-419!2sco!4v1726020052655!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;"></iframe>
+    </div>
+  </section>
+  
+  
+  
+  
+  <section class="stylist-section" aria-label="stylists" id="stylists">
+    <div class="stylist-photo-container">
+      <h3 class="stylists-text">Nuestros estilistas</h3>
+      <div class="stylist-images">
+        <img src="./assets/images/stylist1.jpg" alt="Estilista 1" class="stylist-photo">
+        <img src="./assets/images/stylist2.jpg" alt="Estilista 2" class="stylist-photo">
+      </div>
+    </div>
+  </section>
+  
+  
+
+  
+
+
+
+
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container mx-auto">
+      <div class="footer-top">
+        <div class="footer-brand text-center">
+          <a href="#" class="logo d-inline-block">
+            <img src="./assets/images/logo.png" alt="Logo de la barbería" class="logo-image" width="200" height="200">
+            Barbería 
+            <span class="span">Don Barbas 222</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        Copyright © 2024 Barbería Don Barbas 222. Todos los derechos reservados. Desarrollado por juanpablozulu8@gmail.com<a href="#" class="copyright-link"></a>
+      </p>
+    </div>
+  </footer>
+  
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
