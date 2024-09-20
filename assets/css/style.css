@@ -409,6 +409,9 @@ body {
   color: var(--white);
   margin-block: 15px 40px;
 }
+.h1.hero-title {
+  margin-top: 40px;
+}
 
 
 
